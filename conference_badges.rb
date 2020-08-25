@@ -25,6 +25,11 @@ print_man =  assign_rooms(attendees)
 print_man.each do |person|
   puts person
 end
+print_man = batch_badge_creator(attendees)
+print_man.each do |person|
+  puts person
+end
+
 
 
 end
